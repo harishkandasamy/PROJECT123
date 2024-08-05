@@ -1,0 +1,152 @@
+li{
+    list-style-type: none;
+    margin-left: 6%;
+}
+#home
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    float: left;
+    padding-left: 9%;
+    margin-top: 3%;
+}
+#home1
+{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: normal;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 30px;
+    width: 80px;
+    text-align: center;
+}
+#home2
+{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: normal;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 30px;
+    width: 80px;
+    text-align: center;
+}
+#home1:hover
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: rgb(72, 65, 65);
+}
+#home2:hover
+{
+   color: white;
+   font-weight: bolder;
+   font-size: 16px;
+   background-color: rgb(72, 65, 65);
+}
+#first
+{
+    margin-left: 23%;
+}
+#title
+{
+    margin-top: 1%;
+    margin-left: 3%;
+    color: white;
+}
+h1
+{
+animation-name: onesound;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes onesound
+{
+    0% {color: white;letter-spacing: 10px}
+    30% {color: rgb(74, 96, 111);letter-spacing: 30px}
+    100% {color: aqua;letter-spacing: 10px}
+}
+#artist
+{
+    margin-top: 5%;
+    padding-left: 23%;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+#image
+{
+    display: flex;
+    column-gap: 4%;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+#border
+{
+    border-radius: 10%;
+}
+#image1
+{
+    display: flex;
+    column-gap: 4%;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+#album
+{
+    margin-top: 5%;
+    padding-left: 23%;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+h3,h4
+{
+    color: black;
+}
+#image2
+{
+    display: flex;
+    column-gap: 4%;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+#global
+{
+    margin-top: 5%;
+    padding-left: 23%;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+#image3
+{
+    display: flex;
+    column-gap: 4%;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+#episode
+{
+    margin-top: 5%;
+    padding-left: 23%;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
